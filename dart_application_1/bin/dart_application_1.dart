@@ -1,4 +1,4 @@
-import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
+// import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
 
 void main() {
   print(Cookie().toString());
@@ -9,7 +9,7 @@ void main() {
   //this print statement to disply the Size of the cookie value with unit
   Cookie().baking();
   print(Cookie().isCooling());
-  //the instance to call the baking() and iscooling method.the iscooling return the boolean value.so the value to print using pring function
+  //the instance to call the baking() and iscooling method.the iscooling return the boolean value.so the value to
 }
 class Cookie{  //class Name Cookie
   String Shape='Circle';
